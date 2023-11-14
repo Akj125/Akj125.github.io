@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alec Jones</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS de BootsWatch -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/darkly/bootstrap.min.css">
+</head>
+
+    
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1">Alec Jones</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barreNavigation" aria-controls="barreNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="barreNavigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#projets">projets</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#competences">Compétences</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#realisations">Réalisations</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#coordonnees">Coordonnées</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main style="margin-top: 100px;">
+        <!-- Introduction -->
+        <div class="jumbotron text-center mt-5" id="introduction">
+            <h2 class="display-4">Introduction</h2>
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        </div>
+
+        <!-- Projets -->
+        <div id="projets" class="carousel slide" style="margin-top: 100px; text-align: center;">
+            <h1>Projets</h1>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#projets" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#projets" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#projets" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/test1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/test2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/test3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projets" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projets" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Compétences -->
+        <div id="competences" class="container-fluid" style="margin-top: 100px;">
+            <h1 class="text-center">Compétences</h1>
+            <div class="row justify-content-center">
+                <div class="col-10">                    
+                    <h3>Languages
+                        <span class="badge bg-info">C++</span>
+                        <span class="badge bg-info">Python</span>
+                        <span class="badge bg-info">HTML</span>
+                        <span class="badge bg-info">CSS</span>
+                        <span class="badge bg-info">Assembly</span>
+                        <span class="badge bg-info">SQL</span>
+                    </h3>
+        
+                    <h3>Frameworks
+                        <span class="badge bg-warning">Bootstrap</span>
+                        <span class="badge bg-warning">ROS</span>
+                    </h3>
+        
+                    <h3>Outils
+                        <span class="badge bg-success">Git</span>
+                        <span class="badge bg-success">GitHub</span>
+                        <span class="badge bg-success">Visual Studio Code</span>
+                        <span class="badge bg-success">Arduino</span>
+                        <span class="badge bg-success">Raspberry Pi</span>
+                        <span class="badge bg-success">Linux</span>
+                        <span class="badge bg-success">Windows</span>
+                    </h3>
+
+                    <h3>Qualités
+                        <span class="badge bg-danger">Autonome</span>
+                        <span class="badge bg-danger">Curieux</span>
+                        <span class="badge bg-danger">Rigoureux</span>
+                        <span class="badge bg-danger">Sérieux</span>
+                        <span class="badge bg-danger">Sociable</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Réalisations -->
+        <!-- TODO -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
