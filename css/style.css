@@ -29,7 +29,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
     .carousel-caption p, .carousel-caption h5 {
         font-size: 12px;
     }
